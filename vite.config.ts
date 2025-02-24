@@ -7,12 +7,12 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
     //change port for production
-  preview: {
+  },
+   preview: {
     port: 3001,
   },
   // for dev
   server: {
     port: 443,
-  },
   },
 });
