@@ -6,13 +6,5 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
-    //change port for production
-  },
-   preview: {
-    port: 3001,
-  },
-  // for dev
-  server: {
-    port: 443,
   },
 });
