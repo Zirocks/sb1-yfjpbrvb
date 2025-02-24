@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host --port443",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port443"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@stripe/stripe-js": "^3.0.5",
